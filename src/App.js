@@ -15,7 +15,7 @@ class App extends Component {
   render () {
     return (
       <div id='App'>
-      <h1>Hi</h1>
+        <h1>Excel Formula Viewer</h1>
         <input onChange={this.handleInput} value={this.state.formula} />
         <br/>
         <MathJax.Context>
